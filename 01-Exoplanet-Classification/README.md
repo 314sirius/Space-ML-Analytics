@@ -27,8 +27,8 @@ The dataset tracks **9,564 observation entries** across **49 astronomical column
 | ML Architecture | Area Under Curve (ROC-AUC) | Overall Accuracy | Primary Drivers Detected |
 | :--- | :---: | :---: | :--- |
 | **Random Forest (Ensemble)** | **0.94** | **0.86** | `log_koi_prad`, `log_koi_period`, `log_koi_tce_plnt_num` |
-| **Decision Tree** | **0.91** | **0.865** | `log_koi_period`, `log_koi_prad`, `log_koi_impact` |
-| **L1 Logistic Regression** | **0.84** | — | `log_koi_prad`, `log_koi_period` |
+| **Decision Tree** | **0.91** | **0.86** | `log_koi_period`, `log_koi_prad`, `log_koi_impact` |
+| **L1 Logistic Regression** | **0.84** | 0.74 | `log_koi_prad`, `log_koi_period` |
 
 ### 🔑 Key Analytics Insights
 
